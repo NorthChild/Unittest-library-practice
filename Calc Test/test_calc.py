@@ -1,3 +1,8 @@
+# to run this test, download both scripts in a folder, 'cd' to the folder containing both downloaded scripts, 
+# when you have changed directory to the folder, run this on your command line 'python test_calc.py', 
+# make sure both scripts are in the same folder, 
+
+
 import unittest
 import calc
 
@@ -30,3 +35,7 @@ class TestCalc(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    
+    
+    
+   
